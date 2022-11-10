@@ -1,0 +1,157 @@
+
+
+body{
+  background-color: #14171a;
+}
+.navigation{
+  left: 0;
+  top: 0;
+  position: absolute;
+  display: block;
+  height: 8%;
+  width: 100%;
+  background-color: #0c1013;
+  box-shadow: 0px 5px 5px black;
+}
+.navigation h2{
+  font-size: 1.8vw;
+  position: absolute;
+  top: 0;
+  margin-top: 0;
+  left: 15%;
+  color: white;
+  display: block;
+}
+.navigation h4{
+  font-size: 1.2vw;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  color: white;
+}
+.links {
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 65%;
+  right: 0;
+  margin-right:0;
+}
+.links a{
+  font-size: 1.4vw;
+  text-decoration: none;
+  position: relative;
+  color: #bcbcbc;
+  margin-left: 2%;
+  top: 25%;
+}
+.links a::before {
+  content: '';
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 0%;
+  height: 10%;
+  border-radius: 20px;
+  background-color: #66a33a;
+  transition: 0.2s;
+}
+.links a:hover:before {
+  width: 100%;
+  left: 0;
+}
+.links a:hover {
+  color: #66a33a;
+}
+.main {
+  margin-top: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  display: block;
+}
+.main p{
+  color: #d1d1d1;
+  text-align: left;
+  text-indent: 24px;
+  line-height: 24px;
+  border: 15px solid #0c1013;
+  border-radius: 5px;
+  background-color: #0c1013;
+  box-shadow: 0px 5px 5px black;
+}
+.main h2{
+  font-size: 2vw;
+  color: white;
+}
+.main img{
+
+  float: right;
+  width: 300px;
+  margin-top: 5%;
+  border-radius: 5px;
+}
+footer{
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  background-color:grey ;
+}
+.podval{
+  position: absolute;
+  display: block;
+  top: 0;
+  width: 100%;
+  height: 70%;
+  background-color:#0b0d10 ;
+}
+.podval h2{
+  color: white;
+  font-size: 1.4vw;
+  position: absolute;
+  top: 5%;
+  left: 20%;
+}
+.podval h4{
+  color: #d1d1d1;
+  font-size: 1vw;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  width: 25%;
+}
+.podval1{
+  position: absolute;
+  display: block;
+  top: 70%;
+  width: 100%;
+  height: 30%;
+  background-color:#040506 ;
+}
+.podval1 h4{
+  color: #d1d1d1;
+  font-size: 1vw;
+  position: absolute;
+  width:90%;
+  top: 10%;
+  bottom: 10%;
+  left: 20%;
+}
+#name {
+  color: white;
+}
+#nomer {
+  margin-left: 2%;
+}
+#gmail {
+  color: #66a33a;
+  margin-left: 2%;
+}
+#telega {
+  margin-left: 2%;
+}
+em{
+  color: white;
+}
