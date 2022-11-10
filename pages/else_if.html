@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>else/if</title>
+	<style type="text/css">
+		body{
+			color: hotpink;
+		}
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+		//Питання про мультік
+		let  mainChar = prompt('Як звуть головного героя мультфільму «Карлсон, який живе на даху»?', '');
+		if (mainChar == 'Карлсон') {
+			alert('Так, це вірно!' );
+		}
+		else if (mainChar != 'Карлсон') {
+			alert( 'Ви не знаєте? Його звуть Карлсон!' );
+		}
+
+		//Корені
+		alert("Тепер давайте знайдемо корені квадратного рівняння виду: ax2 + bx + c = 0");
+		let a = prompt("Введіть а:"),
+				 b = +prompt("Введіть в:"),
+				 c = +prompt("Введіть с:");
+
+		let d = b * b - 4 * a * c;
+
+ 		if (d < 0) {
+ 			alert('Рівння не має коренів' );
+ 		}
+ 		else{
+ 			let x1 = (-b + Math.sqrt(d)) / (2 * a),
+ 					x2 = (-b - Math.sqrt(d)) / (2 * a);
+ 			alert('х1 = '+ x1 + "; x2 = " + x2 );
+ 		}
+
+		//Логін та пароль
+		let  login = prompt('А тепер давайте зайдемо до вашого особистого кабінету! Введіть ваш логін:', '');
+		if (login == 'User') {
+			let  password = prompt('Введіть ваш пароль:', '');
+			if (password == 'password') {
+				alert('Ласкаво просимо!' );
+			}
+			else if (password != 'password') {
+				alert( 'Пароль невірний!' );
+			}
+			else{
+				alert( 'вхід скасований' );
+			}
+			alert('Так, це вірно!' );
+		}
+		else if (login != 'User') {
+			alert( 'користувач невизначений' );
+		}
+		else {
+			alert( 'вхід скасований' );
+		}
+	</script>
+</body>
+</html>

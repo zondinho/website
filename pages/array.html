@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>array</title>
+	<style type="text/css">
+		body{
+			color: whitesmoke;
+			background-color: darkviolet;
+			font-size: 24px;
+			font-family: 'Open Sans', sans-serif;
+		}
+	</style>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+<script type="text/javascript">
+	let compl=['smart', 'brave', 'wise', 'polite', 'patient', 'kind', 'gorgeous', 'genius', 'inspiring', 'majestic'];
+	let anim=['dog', 'cat', 'elephant', 'monkey', 'donkey', 'kangaroo', 'giraffe', 'capybara', 'black mamba', 'tiger'];
+	let numb=prompt("?", 100)
+	for (let i = 1; i<=numb; i++) {
+		let rand=Math.floor(Math.random()*compl.length);
+		let rand1=Math.floor(Math.random()*anim.length);
+		document.write(" You are so "+compl[rand]+" as "+anim[rand1]+'<br>')
+	}
+</script>
+</body>
+</html>

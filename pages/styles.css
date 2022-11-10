@@ -1,0 +1,120 @@
+body 
+{
+	font-family: 'Comfortaa', cursive;
+	background: #E5E5E5;
+}
+
+/*styles for main block*/
+
+.main
+{
+	display: flex;
+	flex-direction: row-reverse;
+	width: 1200px;
+	margin: 0 auto;
+	background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+.zagolovok_h3{
+	font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+.zagolovok_h2{
+	font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+}
+.short_about{
+	margin-top: 25px;
+	margin-bottom: 40px;
+	font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.list_number{
+	font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+.list_text{
+	margin-top: 10px;
+	margin-bottom: 50px;
+	font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.zagolovok_h4{
+	font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.work_place{
+	font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+}
+.right_block{
+	margin-top: 110px;
+}
+.left_block{
+	/*margin-top: 40px;
+	margin-right: 90px;
+	margin-bottom: 40px;
+	margin-left: 40px;*/
+	margin: 40px 90px 40px 40px;
+	background: #1E2939;
+	padding-top: 40px;
+}
+.h3_left{
+	font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.Contacts_styles,
+.tech_skills_styles{
+	margin-top: 50px;
+	margin-left: 40px;
+}
+.list_point{
+	color: #FB6D3A;
+}
+.skills_text{
+	color: #FFFFFF;
+    opacity: 0.5;
+}
+.contact_type{
+	font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FB6D3A;
+}
+.contact_link{
+	font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.soft_skills_styles{
+	margin-top: 45px;
+	margin-left: 45px;
+}
